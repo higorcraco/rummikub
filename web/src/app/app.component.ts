@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { PieceComponent } from './piece/piece.component';
+import { TileComponent } from './tile/tile.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, PieceComponent],
+  imports: [CommonModule, RouterOutlet, TileComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
