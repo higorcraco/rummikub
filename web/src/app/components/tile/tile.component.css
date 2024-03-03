@@ -1,0 +1,53 @@
+.pile {
+    width: 60px;
+    height: 85px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;   
+    box-shadow: inset 4px -4px 7px -2px;
+}
+
+.rummikub-piece {
+    width: 50px;
+    height: 75px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: var(--tile-background-color);
+}
+
+.number {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding-top: 2px;
+    background-image: linear-gradient(180deg, var(--tile-background-color), white);
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.black {
+    color: black;
+}
+
+.orange {
+    color: orange;
+}

@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './tile.component.css'
 })
 export class TileComponent {
-
+  number: number = 13;
+  color: string = 'blue';
 }
