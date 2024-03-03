@@ -1,0 +1,8 @@
+::ng-deep :root {
+    --tile-background-color: #e2e2da
+  }
+
+  .main {
+    background-color: darkblue;
+    height: 500px;
+  }
